@@ -5,4 +5,3 @@ int main() {
 	race.start(); 
 	return 0; 
 } 
-

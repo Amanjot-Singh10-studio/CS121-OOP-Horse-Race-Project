@@ -16,3 +16,4 @@ run: HorseRace
 clean: 
 	rm HorseRace
 	rm *.o
+

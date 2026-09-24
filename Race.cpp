@@ -21,7 +21,6 @@ void Race::start() {
 				keepGoing = false; 
 			} 
 		} 
-
 		if (keepGoing) { 
 			std::cout << "Press Enter for another turn" << std::endl; 
 			std::cin.ignore(); 

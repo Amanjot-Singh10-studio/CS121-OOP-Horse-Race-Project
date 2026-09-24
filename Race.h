@@ -11,5 +11,4 @@ class Race {
 		Race(); 
 		void start(); 
 }; 
-
 #endif

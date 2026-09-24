@@ -41,3 +41,4 @@ bool Horse::isWinner() {
 	}
 	return won; 
 } 
+
