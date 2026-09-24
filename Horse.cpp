@@ -4,12 +4,12 @@
 
 Horse::Horse() {
 	position = 0; 
-	index = 0; 
+	horseNum = 0; 
 	trackLength = 15; 
 } 
 
-void Horse::init(int HorseIndex, int length) { 
-	index = HorseIndex; 
+void Horse::init(int number, int length) { 
+	horseNum = number; 
 	trackLength = length; 
 	position = 0; 
 } 
@@ -24,7 +24,7 @@ void Horse::advance() {
 void Horse::printLane() { 
 	for (int pos = 0; pos < trackLength; pos++) { 
 		if (position == pos) { 
-			std::cout << index; 
+			std::cout << horseNum; 
 		} 
 		else { 
 			std::cout << "."; 
@@ -37,7 +37,7 @@ bool Horse::isWinner() {
 	bool won = false;
 	if (position >= trackLength) { 
 		won = true; 
-		std::cout << "Horse " << index << " Win's!" << std::endl; 
+		std::cout << "Horse " << horseNum << " Win's!" << std::endl; 
 	}
 	return won; 
 } 

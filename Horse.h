@@ -4,15 +4,15 @@
 class Horse { 
 	private: 
 		int position; 
-		int index; 
+		int horseNum; 
 		int trackLength; 
 	public: 
 		Horse(); 
-		void init(int horseIndex, int length); 
+		void init(int number, int length); 
 		void advance(); 
 		void printLane(); 
 		bool isWinner();
-}; 
+};
 
 #endif 
 
