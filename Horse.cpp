@@ -13,7 +13,6 @@ void Horse::init(int number, int length) {
 	trackLength = length; 
 	position = 0; 
 } 
-
 void Horse::advance() {
 	int coin = rand() % 2; 
 	if (coin == 1) { 

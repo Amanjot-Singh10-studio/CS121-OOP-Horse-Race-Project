@@ -12,7 +12,6 @@ main.o: main.cpp Race.h
 
 run: HorseRace
 	./HorseRace
-
 clean: 
 	rm HorseRace
 	rm *.o
